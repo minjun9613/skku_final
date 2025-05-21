@@ -1,0 +1,11 @@
+# configs/config.yaml
+model_names: [hybrid, mobilenet, vit, resnet, hybrid_attn_only, hybrid_fusion_only, hybrid_plain]
+batch_size: 16
+epochs: 300
+learning_rate: 0.00005
+weight_decay: 0.0005
+patience: 10
+input_size: [3, 224, 224]
+data_dir: C:/Users/skrne/target/cap/fortest/Metal_Surface_fortest
+save_dir: ./checkpoints
+log_dir: ./logs
